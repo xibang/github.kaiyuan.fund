@@ -14,7 +14,7 @@
           <th>昵称</th>
           <th>公司</th>
           <th>位置</th>
-          <th>被关注</th>
+          <th>粉丝</th>
           <th>关注</th>
           <th>项目</th>
           <th>组织</th>

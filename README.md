@@ -9,7 +9,7 @@
 ![qr](https://user-images.githubusercontent.com/1890238/56898898-bf78a580-6ac4-11e9-8dbf-2277e0fda180.png)
 
 
-如果喜欢本项目，请关注我： [willin](https://github.com/willin) [![willin](https://img.shields.io/github/followers/willin.svg?label=%E5%85%B3%E6%B3%A8%E8%80%85)](https://github.com/willin)
+如果喜欢本项目，请关注我： [willin](https://github.com/willin) [![willin](https://img.shields.io/github/followers/willin.svg?label=Followers)](https://github.com/willin)
 
 ## 数据来源
 

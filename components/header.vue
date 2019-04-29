@@ -12,7 +12,7 @@
       <a href="https://github.com/willin" target="_blank">
         <strong>willin</strong>
         <span class="shown lg">
-          <img src="https://img.shields.io/github/followers/willin.svg?label=关注者">
+          <img src="https://img.shields.io/github/followers/willin.svg?label=粉丝">
         </span>
       </a>
       <span class="shown lg">
