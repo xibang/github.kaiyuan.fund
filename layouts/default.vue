@@ -52,4 +52,5 @@ a:hover
 
 #app
   padding-top: 32px
+
 </style>

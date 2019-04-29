@@ -79,5 +79,15 @@ main
   img
     width: 32px
     height: 32px
-
+  @media only screen and (max-width: 480px)
+    th:nth-child(4),td:nth-child(4),th:nth-child(11),td:nth-child(11)
+      display: none
+  @media only screen and (max-width: 768px)
+    th:nth-child(5),td:nth-child(5),th:nth-child(6), td:nth-child(6),th:nth-child(8),
+    td:nth-child(8),th:nth-child(9),td:nth-child(9),th:nth-child(10),td:nth-child(10)
+      display: none
+  @media only screen and (max-width: 1024px)
+    th:nth-child(5),td:nth-child(5),th:nth-child(8),td:nth-child(8),th:nth-child(9),td:nth-child(9),
+    th:nth-child(10),td:nth-child(10)
+      display: none
 </style>

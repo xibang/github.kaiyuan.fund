@@ -3,7 +3,7 @@ module.exports = {
     title: 'Github Rank (China)',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' },
       { hid: 'description', name: 'description', content: 'Github Rank 中国排行榜' },
       { hid: 'keywords', name: 'keywords', content: 'Willin,Github,Rank,China,XiBang,西邦' },
       { name: 'author', content: 'Willin Wang' },

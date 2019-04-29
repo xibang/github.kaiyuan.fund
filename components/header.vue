@@ -11,7 +11,9 @@
       作者：
       <a href="https://github.com/willin" target="_blank">
         <strong>willin</strong>
-        <img src="https://img.shields.io/github/followers/willin.svg?label=关注者">
+        <span class="shown lg">
+          <img src="https://img.shields.io/github/followers/willin.svg?label=关注者">
+        </span>
       </a>
       <span class="shown lg">
         (Rank: {{ rank }})
@@ -53,4 +55,11 @@ export default {
     color: #69f
   img
     vertical-align: sub
+
+  .shown
+    display:none
+
+  @media only screen and (min-width: 768px)
+    .shown.lg
+      display: inline
 </style>
