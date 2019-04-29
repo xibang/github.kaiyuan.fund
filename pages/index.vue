@@ -1,7 +1,7 @@
 <template>
   <main>
     <p id="info">
-      P.S. 目前共计
+      目前共计
       <strong>{{ total }}</strong>
       名开发者参与中国区排名。
     </p>
