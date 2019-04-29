@@ -1,16 +1,22 @@
 <template>
   <div id="app">
+    <x-source />
     <x-header />
     <nuxt />
+    <x-footer />
   </div>
 </template>
 
 <script>
+import XSource from '@/components/source';
 import XHeader from '@/components/header';
+import XFooter from '@/components/footer';
 
 export default {
   components: {
-    XHeader
+    XSource,
+    XHeader,
+    XFooter
   }
 };
 </script>
@@ -36,6 +42,14 @@ body
 
 a, a *
   cursor: url('/pointer.cur'),pointer !important
+
+a, a:link, a:visited
+  color: #369
+  text-decoration: none
+  text-shadow: 1px 1px 1px rgba(0,0,255,0.25)
+
+a:hover
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5)
 
 #app
   padding-top: 32px
