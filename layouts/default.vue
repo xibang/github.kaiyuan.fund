@@ -35,7 +35,6 @@ body
   -webkit-font-smoothing: antialiased
   -webkit-tap-highlight-color: transparent
   background-image: url(/background.png)
-  background-size: cover
 
 *
   cursor: url('/default.cur'),default
