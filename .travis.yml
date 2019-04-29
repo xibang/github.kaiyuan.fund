@@ -1,0 +1,21 @@
+language: node_js
+node_js: node
+branches:
+  only:
+    - source
+before_install:
+  - export TZ='Asia/Shanghai'
+install:
+  - npm i
+before_script:
+  - git config user.name "Travis-CI"
+  - git config user.email "willin@willin.org"
+script:
+  - npm run generate
+  - cd dist
+  - cp 404.html index.html
+  - git init
+  - git add .
+  - git commit -m "[skip ci] Travis Auto Deployed"
+  - git push --force "https://${GH_TOKEN}@github.com/xibang/github.kaiyuan.fund.git" master:master
+  - git push --force "https://willin:${CODING_TOKEN}@git.dev.tencent.com/willin/github.kaiyuan.fund.git" master:master
