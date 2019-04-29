@@ -17,5 +17,18 @@ module.exports = {
     link: [
       { rel: 'shortcut icon', href: '/favicon.ico' }
     ]
+  },
+  generate: {
+    // routes: ['/'],
+    fallback: true
+  },
+  build: {
+    extractCSS: true,
+    extend(config, { isDev }) {
+      if (isDev) {
+        // eslint-disable-next-line no-param-reassign
+        config.devtool = '#source-map';
+      }
+    }
   }
 };
