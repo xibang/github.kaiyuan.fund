@@ -17,4 +17,4 @@ script:
   - git add .
   - git commit -m "[skip ci] Travis Auto Deployed"
   - git push --force "https://${GH_TOKEN}@github.com/xibang/github.kaiyuan.fund.git" master:gh-pages
-  - git push --force "https://willin:${CODING_TOKEN}@git.dev.tencent.com/willin/github.kaiyuan.fund.git" master:master
+#  - git push --force "https://willin:${CODING_TOKEN}@git.dev.tencent.com/willin/github.kaiyuan.fund.git" master:master
